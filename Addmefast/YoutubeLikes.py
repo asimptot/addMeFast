@@ -10,23 +10,11 @@ def open_browser():
     pg.press('enter')
     time.sleep(10)
 
-def maximize():
-    pg.hotkey('alt', 'space')
-    time.sleep(2)
-    for j in range(5):
-        pg.press('down')
-    time.sleep(2)
-    pg.press('enter')
-
-
 for i in range(90):
     open_browser()
-    time.sleep(2)
-    #maximize()
-    time.sleep(5)
+    time.sleep(7)
     pg.click(1013, 912)
     time.sleep(30)
-
     pg.click(72, 1001)
     time.sleep(40)
 
