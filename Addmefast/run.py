@@ -7,5 +7,4 @@ array = ['python instaFollow.py', 'python instaLike.py', 'python YoutubeSubscrib
 
 for i in range(90):
     j = random.choice(array)
-    print(j)
     os.system(j)
