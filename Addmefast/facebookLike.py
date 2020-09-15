@@ -6,7 +6,7 @@ def open_browser():
     time.sleep(2)
     subprocess.Popen('C:\Program Files (x86)\Google\Chrome\Application\chrome.exe')
     time.sleep(5)
-    pg.typewrite('https://addmefast.com/free_points/telegram_subscribers')
+    pg.typewrite('https://addmefast.com/free_points/facebook_likes')
     time.sleep(2)
     pg.press('delete')
     time.sleep(2)
@@ -15,10 +15,11 @@ def open_browser():
 
 open_browser()
 time.sleep(7)
-pg.click(1000, 867)
+pg.click(994, 791)
 time.sleep(20)
-pg.click(515, 819)
+pg.click(541, 552)
 time.sleep(13)
+
 for j in range(2):
     pg.hotkey('alt', 'f4')
     time.sleep(10)

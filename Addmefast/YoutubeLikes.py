@@ -10,14 +10,12 @@ def open_browser():
     pg.press('enter')
     time.sleep(10)
 
-for i in range(90):
-    open_browser()
-    time.sleep(7)
-    pg.click(1013, 912)
-    time.sleep(30)
-    pg.click(72, 1001)
-    time.sleep(40)
-
-    for j in range(2):
-        pg.hotkey('alt', 'f4')
-        time.sleep(10)
+open_browser()
+time.sleep(7)
+pg.click(1013, 912)
+time.sleep(30)
+pg.click(72, 1001)
+time.sleep(40)
+for j in range(2):
+    pg.hotkey('alt', 'f4')
+    time.sleep(10)
