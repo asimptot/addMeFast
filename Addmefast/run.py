@@ -1,15 +1,6 @@
 import os
 import random
 
-#array = ['python YoutubeSubscribe.py', 'python tiktokLike.py', 'python tiktokFollow.py', 'python soundcloudFollow.py',
-         #'python soundcloudLike.py']
-
-'''
-for i in range(120):
-    j = random.choice(array)
-    os.system(j)
-'''
-
 def YoutubeSubscribe():
     os.system('D:')
     os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Youtube')
@@ -40,10 +31,48 @@ def SoundCloudFollow():
     os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Soundcloud')
     os.system('python soundcloudFollow.py')
 
-array = [YoutubeSubscribe, TiktokFollow, TiktokLike, SoundCloudFollow, SoundCloudLike]
+def InstaLike():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Instagram')
+    os.system('python instaLike.py')
 
-for i in range(120):
+def InstaFollow():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Instagram')
+    os.system('python instaFollow.py')
+
+def FacebookFollow():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Facebook')
+    os.system('python facebookFollowers.py')
+
+def FacebookLike():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Facebook')
+    os.system('python facebookLike.py')
+
+def TwitchFollow():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Twitch')
+    os.system('python twitch.py')
+
+def PinterestSave():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Pinterest')
+    os.system('python pinterestSave.py')
+
+def TweetFollow():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Twitter')
+    os.system('python tweetFollow.py')
+
+def TweetLike():
+    os.system('D:')
+    os.chdir(r'D:\\Projects\\Sosyal\\Addmefast\\Twitter')
+    os.system('python tweetLike.py')
+
+array = [YoutubeSubscribe, TiktokFollow, TiktokLike, SoundCloudFollow, SoundCloudLike, InstaFollow, InstaLike,
+         FacebookFollow, FacebookLike, PinterestSave, TweetFollow, TweetLike]
+
+for i in range(240):
     random.choice(array)()
-
-#random.choice(array)
-

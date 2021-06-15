@@ -8,7 +8,11 @@ def open_browser():
     time.sleep(5)
 
 def press_button():
-    pg.click(992, 856)
+    pg.click(992, 825)
+    time.sleep(10)
+
+def confirm():
+    pg.click(960, 835)
     time.sleep(10)
 
 def carpi_kapat():
